@@ -1,0 +1,11 @@
+{
+  "name": "dedupe",
+  "version": "1.0.0",
+  "description": "Random utility app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC"
+}
