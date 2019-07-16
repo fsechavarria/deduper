@@ -9,7 +9,7 @@ function sortAndDeDupe() {
 
   const newFile = []
 
-  for (let i = 1; i < sortedFile.length; i++) {
+  for (let i = 1; i <= sortedFile.length; i++) {
     // Remove 0 or 1 value from EOL before comparing.
     const current = file[i]
     const last = file[i - 1]
@@ -28,7 +28,6 @@ function checkDuped() {
   const file = require(fileName)
 
   for (let i = 1; i < file.length; i++) {
-    // Remove 0 or 1 value from EOL before comparing.
     const current = file[i].split(',')[0].toLowerCase()
     const last = file[i - 1].split(',')[0].toLowerCase()
 
